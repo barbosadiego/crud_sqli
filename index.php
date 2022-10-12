@@ -25,10 +25,10 @@
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="novo-usuario.php">Novo Usuário</a>
+            <a class="nav-link" href="?page=novo">Novo Usuário</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="listar-usuario.php">Listar Usuários</a>
+            <a class="nav-link" href="?page=listar">Listar Usuários</a>
           </li>
         </ul>
       </div>
@@ -47,7 +47,7 @@
             include("listar-usuario.php");
             break;
           default:
-            print "Bem Vindo!";
+            print "<h1>Bem Vindo!</h1>";
             break;
         }
         ?>
